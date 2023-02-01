@@ -1,4 +1,6 @@
-/*---sets default styling across the entire web page---*/
+/*---Sets default styling across the entire web page.
+    All margin and padding will be included in element's
+    total width and height---*/
 
 * {
     box-sizing: border-box;
@@ -10,10 +12,14 @@ body {
     background-color: #d9dcd6;
 }
 
+/*---Sets default styles for anchor tags across the entire page---*/
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
+
+/*---Sets default font-size for paragraph elements across the entire page---*/
 
 p {
     font-size: 16px;
@@ -54,7 +60,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/*---hero section---*/
+/*---sets a background image to be centered and cover the available area while maintaining it's aspect ratio---*/
 
 .hero {
     height: 800px;
@@ -65,13 +71,15 @@ header nav ul li {
     background-position: center;
 }
 
-/*---content section---*/
+/*---Styles the main portion of the web page---*/
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/*---Sets all the content sections to the same styles---*/
 
 .content section {
     margin-bottom: 20px;
@@ -88,62 +96,28 @@ header nav ul li {
     max-height: 200px;
 }
 
+/*---Floats the image to the left side of it's parent container and adds a margin---*/
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
+/*---Floats the image to the right side of it's parent container and adds a margin---*/
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/*---sets all h2s in the content sections to the same margin-bottom and font-size styles---*/
+/*---Sets all h2s in the content sections to the same margin-bottom and font-size styles---*/
 
 .content section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}*/
-
-/*.online-reputation-management img {
-    max-height: 200px;
-}*/
-
-
-
-/*.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}*/
-
-/*.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}*/
-
-/*.social-media-marketing img {
-    max-height: 200px;
-}*/
-
-/*.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}*/
-
-/*---benefits section---*/
+/*---Sets styling for the aside element---*/
 
 .benefits {
     margin-right: 20px;
@@ -156,15 +130,21 @@ header nav ul li {
     background-color: #2589bd;
 }
 
+/*---Sets all aside sections to the same margin-bottom and font color---*/
+
 .benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*---Sets all h3s in the aside sections to the same margin-bottom and centers the text in the elemnt--*/
+
 .benefits section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/*---Sets all aside sections' images to display block to have full control over margin and max-width attributes---*/
 
 .benefits section img {
     display: block;
@@ -172,39 +152,9 @@ header nav ul li {
     max-width: 150px;
 }
 
-/*.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}*/
-
-/*.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}*/
-
-/*.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}*/
-
-/*.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}*/
-
-/*.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}*/
-
-/*.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}*/
-
-/*---footer---*/
+/*---Sets padding and font styling for the footer,
+    aligns it's text centrally, 
+    and sets element below any floating elements---*/
 
 footer {
     padding: 30px;
@@ -212,6 +162,8 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
+/*---Sets the font-size to 20px for the footer's h2 element---*/
 
 footer h2 {
     font-size: 20px;
